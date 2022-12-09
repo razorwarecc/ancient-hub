@@ -1,0 +1,12 @@
+local bEsp = Instance.new("BillboardGui")
+local nEsp = Instance.new("TextLabel")
+bEsp.Name = math.random(1, 9999999999999)
+local name = nEsp.Name
+bEsp.StudsOffset = 0, 4, 0
+bEsp.Size = UDim2.new(0, 150,0, 25)
+bEsp.AlwaysOnTop = true
+
+nEsp.BackgroundTransparency = 1
+nEsp.TextColor3 = Color3.FromRGB(255, 255, 255)
+nEsp.Font = Enum.Font.GothamMedium
+nEsp.Parent = bEsp
